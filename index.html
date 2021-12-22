@@ -8,24 +8,27 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/favicon.ico"/>
 </head>
-<body>
-
+<body bgcolor="black">
+    <form>
+		<b style="color:#fff;">Jogar contra o computador</b>
+		<input type="checkbox" id="cpu" checked>
+	</form>
     <table border="5" align="center">
-        <tr>
-            <td><i src="images/branco.png"></i></td>
-            <td><i src=""></i></td>
-            <td>cel1</td>
-        </tr>
-        <tr>
-            <td>cel2</td>
-            <td>cel2</td>
-            <td>cel2</td>
-        </tr>
-        <tr>
-            <td>cel3</td>
-            <td>cel3</td>
-            <td>cel3</td>
-        </tr>
+        tr> 
+		<td><img src="images/branco.png" id="cel1" onClick="chkJogo(this.id)"></td> 
+		<td><img src="images/branco.png" id="cel2" onClick="chkJogo(this.id)"></td> 
+		<td><img src="images/branco.png" id="cel3" onClick="chkJogo(this.id)"></td> 
+	</tr> 
+	<tr> 
+		<td><img src="images/branco.png" id="cel4" onClick="chkJogo(this.id)"></td> 
+		<td><img src="images/branco.png" id="cel5" onClick="chkJogo(this.id)"></td> 
+		<td><img src="images/branco.png" id="cel6" onClick="chkJogo(this.id)"></td> 
+	</tr> 
+	<tr> 
+		<td><img src="images/branco.png" id="cel7" onClick="chkJogo(this.id)"></td> 
+		<td><img src="images/branco.png" id="cel8" onClick="chkJogo(this.id)"></td> 
+		<td><img src="images/branco.png" id="cel9" onClick="chkJogo(this.id)"></td> 
+	</tr> 
     </table>
 
     <script src="js/script.js"></script>
